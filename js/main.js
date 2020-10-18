@@ -18,19 +18,19 @@ jQuery(document).ready(function( $ ) {
     interval: 3500
   });
 
-  // JavaScript Chart
+  // python Chart
   var doughnutData = [{
-      value: 70,
+      value: 85,
       color: "#1abc9c"
     },
     {
-      value: 30,
+      value: 15,
       color: "#ecf0f1"
     }
   ];
-  var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("python").getContext("2d")).Doughnut(doughnutData);
 
-  // Bootstrap Chart
+  // matlab Chart
   var doughnutData = [{
     value: 90,
     color: "#1abc9c"
@@ -40,9 +40,9 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("matlab").getContext("2d")).Doughnut(doughnutData);
 
-  // WordPress Chart
+  // C/C++ Chart
   var doughnutData = [{
     value: 65,
     color: "#1abc9c"
@@ -52,31 +52,31 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("c++").getContext("2d")).Doughnut(doughnutData);
 
   // HTML Chart
   var doughnutData = [{
-    value: 80,
+    value: 40,
     color: "#1abc9c"
   },
   {
-    value: 20,
+    value: 60,
     color: "#ecf0f1"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
 
-  // Photoshop Chart
+  // java Chart
   var doughnutData = [{
-    value: 70,
+    value: 50,
     color: "#1abc9c"
   },
   {
-    value: 30,
+    value: 50,
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("java").getContext("2d")).Doughnut(doughnutData);
 
   // Illustrator Chart
   var doughnutData = [{
