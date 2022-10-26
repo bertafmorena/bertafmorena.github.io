@@ -52,7 +52,7 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("matlab").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("c++").getContext("2d")).Doughnut(doughnutData);
 
   // sql Chart
   var doughnutData = [{
@@ -64,7 +64,7 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("c++").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("sql").getContext("2d")).Doughnut(doughnutData);
 
   // HTML Chart
   var doughnutData = [{
